@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Allysson Joias — Ouro 18k Artesanal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="imagens/logo.jpg" alt="Allysson Joias" class="logo-img" />
+      <span>Allysson Joias</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#aliancas">Alianças</a></li>
+      <li><a href="#cordoes">Cordões</a></li>
+      <li><a href="#aneis">Anéis</a></li>
+      <li><a href="#pingentes">Pingentes</a></li>
+      <li><a href="#personalizados">Personalizados</a></li>
+      <li><a href="#calculadora">Cotação</a></li>
+    </ul>
+    <a href="https://wa.me/5583988800352?text=Olá! Vi o site e quero um orçamento." class="btn-nav" target="_blank">Pedir orçamento</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">✦ Joias em ouro 18k artesanais</span>
+      <h1>Feitas à mão,<br><em>pra durar pra sempre.</em></h1>
+      <p>Alianças, cordões, anéis e pingentes sob medida.<br>Compra e venda de ouro com o melhor preço.</p>
+      <div class="hero-btns">
+        <a href="#aliancas" class="btn-primary">Ver catálogo</a>
+        <a href="https://wa.me/5583988800352?text=Olá! Quero um orçamento." class="btn-outline" target="_blank">Chamar no WhatsApp</a>
+      </div>
+      <div class="hero-contatos">
+        <span>📱 (83) 98880-0352</span>
+        <span>📸 @allysson.joias</span>
+      </div>
+    </div>
+    <div class="hero-fotos">
+      <img src="imagens/alianca-6.jpg" alt="Alianças Allysson Joias" class="hero-foto principal" />
+      <img src="imagens/cordao-saoJorge.jpg" alt="Cordão São Jorge" class="hero-foto secundaria" />
+    </div>
+  </section>
+
+  <!-- COTAÇÃO -->
+  <div class="cotacao-bar">
+    <div class="cotacao-item">
+      <span class="cotacao-label">Ouro 18k / grama</span>
+      <span class="cotacao-value">R$ 320,00</span>
+    </div>
+    <div class="cotacao-divider"></div>
+    <div class="cotacao-item">
+      <span class="cotacao-label">Ouro 24k / grama</span>
+      <span class="cotacao-value">R$ 387,50</span>
+    </div>
+    <div class="cotacao-divider"></div>
+    <div class="cotacao-item">
+      <span class="cotacao-label">Variação hoje</span>
+      <span class="cotacao-value positivo">+1,2% ↑</span>
+    </div>
+    <div class="cotacao-divider"></div>
+    <div class="cotacao-item">
+      <span class="cotacao-label">Compramos seu ouro</span>
+      <span class="cotacao-value">Consulte</span>
+    </div>
+  </div>
+
+  <!-- ALIANÇAS -->
+  <section class="section" id="aliancas">
+    <div class="section-header">
+      <h2>Alianças</h2>
+      <p>Fabricadas à mão em ouro 18k — clássicas, diamantadas ou personalizadas</p>
+    </div>
+    <div class="galeria-grid cols-3">
+      <div class="galeria-card">
+        <img src="imagens/alinca-1.jpg" alt="Aliança com diamante" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Aliança com diamante</span>
+          <button class="btn-orcamento" onclick="whatsapp('Aliança com diamante')">Quero essa ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/alianca-2.jpg" alt="Aliança escovada" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Aliança escovada</span>
+          <button class="btn-orcamento" onclick="whatsapp('Aliança escovada')">Quero essa ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/alinca-3.jpg" alt="Aliança lisa polida" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Aliança lisa polida</span>
+          <button class="btn-orcamento" onclick="whatsapp('Aliança lisa polida')">Quero essa ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/alianca-4.jpg" alt="Par com ranhuras" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Par com ranhuras</span>
+          <button class="btn-orcamento" onclick="whatsapp('Par de alianças com ranhuras')">Quero essa ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/alianca-5.jpg" alt="Com zircônia cravejada" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Com zircônia cravejada</span>
+          <button class="btn-orcamento" onclick="whatsapp('Aliança com zircônia')">Quero essa ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/alianca-6.jpg" alt="Par trabalhado premium" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Par trabalhado premium</span>
+          <button class="btn-orcamento" onclick="whatsapp('Par de alianças trabalhado')">Quero essa ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/alianca-7.jpg" alt="Par com zircônia dupla" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Par com zircônia dupla</span>
+          <button class="btn-orcamento" onclick="whatsapp('Par de alianças com zircônia dupla')">Quero essa ↗</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORDÕES -->
+  <section class="section bg-creme" id="cordoes">
+    <div class="section-header">
+      <h2>Cordões & Colares</h2>
+      <p>Correntes, cordões com medalha e colares religiosos — todos em ouro 18k</p>
+    </div>
+    <div class="galeria-grid cols-3">
+      <div class="galeria-card">
+        <img src="imagens/cordao-medalhao-1.jpg" alt="Cordão com medalhão" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Cordão com medalhão</span>
+          <button class="btn-orcamento" onclick="whatsapp('Cordão com medalhão')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/cordao-saoJorge.jpg" alt="Cordão São Jorge" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Cordão São Jorge</span>
+          <button class="btn-orcamento" onclick="whatsapp('Cordão São Jorge')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/cordao-cruz-1.jpg" alt="Cordão cruz lisa" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Cordão com cruz lisa</span>
+          <button class="btn-orcamento" onclick="whatsapp('Cordão com cruz lisa')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/cordao-cruz-2.jpg" alt="Cordão cruz com oração" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Cordão cruz com oração</span>
+          <button class="btn-orcamento" onclick="whatsapp('Cordão cruz com oração gravada')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/cordao-nossasenhora.jpg" alt="Cordão Nossa Senhora" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Cordão Nossa Senhora</span>
+          <button class="btn-orcamento" onclick="whatsapp('Cordão Nossa Senhora Aparecida')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/pingente-salmo.jpg" alt="Cordão Salmo 91" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Cordão Salmo 91</span>
+          <button class="btn-orcamento" onclick="whatsapp('Cordão com pingente Salmo 91')">Quero esse ↗</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANÉIS -->
+  <section class="section" id="aneis">
+    <div class="section-header">
+      <h2>Anéis</h2>
+      <p>Solitários, personalizados e masculinos — feitos sob medida</p>
+    </div>
+    <div class="galeria-grid cols-3">
+      <div class="galeria-card">
+        <img src="imagens/anel-solitario.jpg" alt="Anel solitário" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Anel solitário</span>
+          <button class="btn-orcamento" onclick="whatsapp('Anel solitário')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/anel-rubi.jpg" alt="Anel com rubi" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Anel com rubi</span>
+          <button class="btn-orcamento" onclick="whatsapp('Anel com rubi')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/anel-cifrao.jpg" alt="Anel cifrão masculino" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Anel cifrão masculino</span>
+          <button class="btn-orcamento" onclick="whatsapp('Anel cifrão masculino')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/anel-salmo91.jpg" alt="Anel Salmo 91" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Anel Salmo 91</span>
+          <button class="btn-orcamento" onclick="whatsapp('Anel Salmo 91')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/conjunto-barbie.jpg" alt="Conjunto anel e brincos Barbie" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Conjunto anel + brincos</span>
+          <button class="btn-orcamento" onclick="whatsapp('Conjunto anel e brincos')">Quero esse ↗</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PINGENTES -->
+  <section class="section bg-creme" id="pingentes">
+    <div class="section-header">
+      <h2>Pingentes</h2>
+      <p>Religiosos, iniciais, placas — todos gravados e feitos no detalhe</p>
+    </div>
+    <div class="galeria-grid cols-4">
+      <div class="galeria-card">
+        <img src="imagens/pingente-1.jpg" alt="Placa com iniciais" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Placa com iniciais</span>
+          <button class="btn-orcamento" onclick="whatsapp('Pingente placa com iniciais')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/pingente-2.jpg" alt="Medalha com letra" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Medalha com letra</span>
+          <button class="btn-orcamento" onclick="whatsapp('Pingente medalha com letra')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/pingente-3.jpg" alt='Pingente "Fé"' />
+        <div class="galeria-info">
+          <span class="galeria-nome">Pingente "Fé"</span>
+          <button class="btn-orcamento" onclick="whatsapp('Pingente Fé')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/pingente-4.jpg" alt="Coração com nomes" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Coração com nomes</span>
+          <button class="btn-orcamento" onclick="whatsapp('Pingente coração com nomes')">Quero esse ↗</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERSONALIZADOS -->
+  <section class="section" id="personalizados">
+    <div class="section-header">
+      <h2>Personalizados & Pulseiras</h2>
+      <p>Colares com nome, pulseiras gravadas e peças únicas pra presentear</p>
+    </div>
+    <div class="galeria-grid cols-3">
+      <div class="galeria-card">
+        <img src="imagens/colar-nome.jpg" alt="Colar com nome" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Colar com nome</span>
+          <button class="btn-orcamento" onclick="whatsapp('Colar com nome personalizado')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/colar-dois-nomes.jpg" alt="Colar dois nomes casal" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Colar dois nomes — casal</span>
+          <button class="btn-orcamento" onclick="whatsapp('Colar com dois nomes para casal')">Quero esse ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/pulseira-nome.jpg" alt="Pulseira com nome" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Pulseira com nome</span>
+          <button class="btn-orcamento" onclick="whatsapp('Pulseira com nome personalizado')">Quero essa ↗</button>
+        </div>
+      </div>
+      <div class="galeria-card">
+        <img src="imagens/pulseira-1.jpg" alt="Pulseira grumet" />
+        <div class="galeria-info">
+          <span class="galeria-nome">Pulseira grumet</span>
+          <button class="btn-orcamento" onclick="whatsapp('Pulseira grumet')">Quero essa ↗</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALCULADORA -->
+  <section class="section bg-escuro" id="calculadora">
+    <div class="section-header claro">
+      <h2>Calculadora de Ouro</h2>
+      <p>Descubra quanto vale o seu ouro antes de vir até nós</p>
+    </div>
+    <div class="calculadora">
+      <div class="calc-grupo">
+        <label>Peso do ouro (gramas)</label>
+        <input type="number" id="peso" placeholder="Ex: 10" min="0" step="0.1" oninput="calcularOuro()" />
+      </div>
+      <div class="calc-grupo">
+        <label>Quilate</label>
+        <select id="quilate" onchange="calcularOuro()">
+          <option value="1">24k — Ouro puro</option>
+          <option value="0.75" selected>18k — 75% ouro</option>
+          <option value="0.583">14k — 58,3% ouro</option>
+          <option value="0.417">10k — 41,7% ouro</option>
+        </select>
+      </div>
+      <div class="calc-resultado">
+        <span class="resultado-label">Valor estimado</span>
+        <span class="resultado-valor" id="resultado">R$ 0,00</span>
+      </div>
+      <p class="calc-aviso">* Estimativa baseada na cotação atual. Valor final definido na avaliação presencial.</p>
+      <a href="https://wa.me/5583988800352?text=Quero vender meu ouro. Vi a calculadora no site!" class="btn-primary" target="_blank" style="display:block;text-align:center;margin-top:1.25rem;">
+        Vender meu ouro pelo WhatsApp ↗
+      </a>
+    </div>
+  </section>
+
+  <!-- FABRICAÇÃO -->
+  <section class="section bg-creme">
+    <div class="section-header">
+      <h2>Como funciona a fabricação</h2>
+      <p>Do pedido à entrega, tudo feito com cuidado e atenção</p>
+    </div>
+    <div class="etapas-grid">
+      <div class="etapa">
+        <div class="etapa-num">01</div>
+        <h4>Conversa</h4>
+        <p>Manda mensagem no WhatsApp descrevendo o que quer — modelo, tamanho, quilate.</p>
+      </div>
+      <div class="etapa">
+        <div class="etapa-num">02</div>
+        <h4>Orçamento</h4>
+        <p>Você recebe o preço completo, sem surpresas. Definimos tudo antes de começar.</p>
+      </div>
+      <div class="etapa">
+        <div class="etapa-num">03</div>
+        <h4>Fabricação</h4>
+        <p>Sua joia é feita à mão pelo Allysson. Você acompanha o processo se quiser.</p>
+      </div>
+      <div class="etapa">
+        <div class="etapa-num">04</div>
+        <h4>Entrega</h4>
+        <p>Peça pronta em estojo, com certificado de garantia Allysson Joias.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section bg-escuro" id="contato">
+    <div class="section-header claro">
+      <h2>Fale com a gente</h2>
+      <p>Atendimento pelo WhatsApp e Instagram</p>
+    </div>
+    <div class="contato-grid">
+      <div class="contato-info">
+        <div class="contato-item">
+          <span class="contato-icon">📱</span>
+          <div>
+            <div class="contato-titulo">WhatsApp</div>
+            <div class="contato-detalhe">(83) 98880-0352</div>
+          </div>
+        </div>
+        <div class="contato-item">
+          <span class="contato-icon">📸</span>
+          <div>
+            <div class="contato-titulo">Instagram</div>
+            <div class="contato-detalhe">@allysson.joias</div>
+          </div>
+        </div>
+        <div class="contato-item">
+          <span class="contato-icon">🏅</span>
+          <div>
+            <div class="contato-titulo">Garantia</div>
+            <div class="contato-detalhe">Certificado em todas as peças</div>
+          </div>
+        </div>
+        <a href="https://wa.me/5583988800352?text=Olá Allysson! Vi o site e quero um orçamento." class="btn-whatsapp" target="_blank">Chamar no WhatsApp</a>
+        <a href="https://instagram.com/allysson.joias" class="btn-instagram" target="_blank">Ver no Instagram</a>
+      </div>
+      <div class="contato-foto-wrap">
+        <img src="cordao-cruz-1.jpg" alt="Joias Allysson" class="contato-foto" />
+        <div class="contato-selo">
+          <img src="logo.jpg" alt="Logo Allysson Joias" />
+          <span>Certificado de Garantia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>✦ Allysson Joias · (83) 98880-0352 · @allysson.joias · 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
