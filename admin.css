@@ -118,6 +118,17 @@ body {
 /* ===== MAIN ===== */
 .admin-main { padding: 1.5rem 2rem; max-width: 1200px; margin: 0 auto; }
 
+.admin-aviso {
+  background: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 .admin-bar {
   display: flex;
   align-items: center;
