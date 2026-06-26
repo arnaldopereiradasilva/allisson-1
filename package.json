@@ -1,0 +1,14 @@
+{
+  "name": "allysson-joias",
+  "version": "1.0.0",
+  "description": "Site Allysson Joias + Painel Administrativo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "admin": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}

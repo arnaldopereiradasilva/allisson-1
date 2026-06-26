@@ -1,0 +1,164 @@
+{
+  "categorias": {
+    "aliancas": [
+      {
+        "id": "a1",
+        "nome": "Com diamante",
+        "imagem": "imagens/alianca-1.jpg",
+        "alt": "Aliança ouro 18k com diamante"
+      },
+      {
+        "id": "a2",
+        "nome": "Escovada",
+        "imagem": "imagens/alianca-2.jpg",
+        "alt": "Aliança ouro 18k escovada"
+      },
+      {
+        "id": "a3",
+        "nome": "Lisa polida",
+        "imagem": "imagens/alianca-3.jpg",
+        "alt": "Aliança ouro 18k lisa polida"
+      },
+      {
+        "id": "a4",
+        "nome": "Com ranhuras",
+        "imagem": "imagens/alianca-4.jpg",
+        "alt": "Aliança ouro 18k com ranhuras"
+      },
+      {
+        "id": "a5",
+        "nome": "Com zircônia",
+        "imagem": "imagens/alianca-5.jpg",
+        "alt": "Aliança ouro 18k com zircônia"
+      },
+      {
+        "id": "a6",
+        "nome": "Par premium",
+        "imagem": "imagens/alianca-7.jpg",
+        "alt": "Aliança ouro 18k trabalhada premium"
+      }
+    ],
+    "aneis": [
+      {
+        "id": "an1",
+        "nome": "Solitário",
+        "imagem": "imagens/anel-solitario.jpg",
+        "alt": "Anel solitário ouro 18k com zircônia"
+      },
+      {
+        "id": "an2",
+        "nome": "Com rubi",
+        "imagem": "imagens/anel-rubi.jpg",
+        "alt": "Anel ouro 18k com rubi"
+      },
+      {
+        "id": "an3",
+        "nome": "Masculino cifrão",
+        "imagem": "imagens/anel-cifrao.jpg",
+        "alt": "Anel masculino ouro 18k cifrão"
+      },
+      {
+        "id": "an4",
+        "nome": "Salmo 91",
+        "imagem": "imagens/anel-salmo91.jpg",
+        "alt": "Anel ouro 18k com Salmo 91 gravado"
+      },
+      {
+        "id": "an5",
+        "nome": "Conjunto anel + brincos",
+        "imagem": "imagens/conjunto-barbie.jpg",
+        "alt": "Conjunto anel e brincos ouro 18k"
+      }
+    ],
+    "cordoes": [
+      {
+        "id": "c1",
+        "nome": "Com medalhão",
+        "imagem": "imagens/cordao-medalhao-1.jpg",
+        "alt": "Cordão ouro 18k com medalhão personalizado"
+      },
+      {
+        "id": "c2",
+        "nome": "São Jorge",
+        "imagem": "imagens/cordao-saoJorge.jpg",
+        "alt": "Cordão São Jorge ouro 18k"
+      },
+      {
+        "id": "c3",
+        "nome": "Cruz lisa",
+        "imagem": "imagens/cordao-cruz-1.jpg",
+        "alt": "Cordão com crucifixo liso ouro 18k"
+      },
+      {
+        "id": "c4",
+        "nome": "Cruz com oração",
+        "imagem": "imagens/cordao-cruz-2.jpg",
+        "alt": "Cordão crucifixo com oração gravada ouro 18k"
+      },
+      {
+        "id": "c5",
+        "nome": "Nossa Senhora",
+        "imagem": "imagens/cordao-nossasenhora.jpg",
+        "alt": "Cordão Nossa Senhora Aparecida ouro 18k"
+      },
+      {
+        "id": "c6",
+        "nome": "Salmo 91",
+        "imagem": "imagens/pingente-salmo.jpg",
+        "alt": "Cordão com Salmo 91 gravado ouro 18k"
+      }
+    ],
+    "pingentes": [
+      {
+        "id": "p1",
+        "nome": "Placa com iniciais",
+        "imagem": "imagens/pingente-1.jpg",
+        "alt": "Pingente placa com iniciais ouro 18k"
+      },
+      {
+        "id": "p2",
+        "nome": "Medalha com letra",
+        "imagem": "imagens/pingente-2.jpg",
+        "alt": "Pingente medalha com letra ouro 18k"
+      },
+      {
+        "id": "p3",
+        "nome": "Pingente Fé",
+        "imagem": "imagens/pingente-3.jpg",
+        "alt": "Pingente Fé ouro 18k com mãos orando"
+      },
+      {
+        "id": "p4",
+        "nome": "Coração com nomes",
+        "imagem": "imagens/pingente-4.jpg",
+        "alt": "Pingente coração com nomes da família ouro 18k"
+      }
+    ],
+    "personalizados": [
+      {
+        "id": "ps1",
+        "nome": "Colar com nome",
+        "imagem": "imagens/colar-nome.jpg",
+        "alt": "Colar com nome personalizado ouro 18k"
+      },
+      {
+        "id": "ps2",
+        "nome": "Colar dois nomes — casal",
+        "imagem": "imagens/colar-dois-nomes.jpg",
+        "alt": "Colar com dois nomes casal ouro 18k"
+      },
+      {
+        "id": "ps3",
+        "nome": "Pulseira com nome",
+        "imagem": "imagens/pulseira-nome.jpg",
+        "alt": "Pulseira com nome gravado ouro 18k"
+      },
+      {
+        "id": "ps4",
+        "nome": "Pulseira grumet",
+        "imagem": "imagens/pulseira-1.jpg",
+        "alt": "Pulseira grumet ouro 18k"
+      }
+    ]
+  }
+}
