@@ -43,14 +43,14 @@ app.get('/api/produtos', (req, res) => {
 });
 
 app.post('/api/produtos', (req, res) => {
-  const { categoria, nome, alt } = req.body;
+  const { categoria, nome, alt, imagem } = req.body;
   if (!categoria || !nome) return res.status(400).json({ erro: 'categoria e nome são obrigatórios' });
 
   const dados = lerDados();
   if (!dados.categorias[categoria]) dados.categorias[categoria] = [];
 
   const id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
-  dados.categorias[categoria].push({ id, nome, imagem: '', alt: alt || nome });
+  dados.categorias[categoria].push({ id, nome, imagem: imagem || '', alt: alt || nome });
   salvarDados(dados);
   res.json({ ok: true, produto: dados.categorias[categoria].find(p => p.id === id) });
 });
